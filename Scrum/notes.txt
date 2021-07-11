@@ -1,0 +1,9 @@
+3. Random.Range(min, Enum.Length). Check if result contained in List/Array of Enums. IF so: random again. | Ex. array/list
+4. Add all numbers or enums to a list/array. Random a value from that list by randoming the index. Remove items from the list to exclude. | List copy of enums
+5. Add all numbers or enums to a list/array. Add all enums/numbers to be excluded in another list. Create a list of items from list A that arent in List B. Random a value from that list by randoming the index.
+Remove items from the list to exclude. | 2 lists
+
+ int[] randomLevels = new int[] {2, 3, 6, 9};
+ Application.LoadLevel(randomLevels[Random.Range(0, randomLevels.Length)]);
+ 
+ https://stackoverflow.com/questions/1167361/how-do-i-convert-an-enum-to-a-list-in-c
